@@ -10,7 +10,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /$WERCKER_APPLICATION_OWNER_NAME/user23/
+      - path: /$WERCKER_APPLICATION_OWNER_NAME/user13/
         backend:
           serviceName: rest-jscreditscore-svc23
           servicePort: 8010
